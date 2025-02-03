@@ -24,3 +24,5 @@ class Solution:
             node.next = nxt
             pre = node
         return dummy.next
+
+#https://leetcode.com/problems/reverse-nodes-in-k-group/
