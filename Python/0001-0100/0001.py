@@ -5,3 +5,5 @@ class Solution:
             if (y := target - x) in d:
                 return [d[y], i]
             d[x] = i
+
+#https://leetcode.com/problems/two-sum/description/
