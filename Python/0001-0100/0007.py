@@ -11,3 +11,5 @@ class Solution:
             ans = ans * 10 + y
             x = (x - y) // 10
         return ans
+
+#https://leetcode.com/problems/reverse-integer/
