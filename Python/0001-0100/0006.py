@@ -10,3 +10,5 @@ class Solution:
                 k = -k
             i += k
         return ''.join(chain(*g))
+
+#https://leetcode.com/problems/zigzag-conversion/
