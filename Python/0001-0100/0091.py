@@ -1,18 +1,10 @@
 class Solution:
-    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
-        def dfs(i: int):
-            if i == len(nums):
-                ans.append(t[:])
-                return
-            t.append(nums[i])
-            dfs(i + 1)
-            x = t.pop()
-            while i + 1 < len(nums) and nums[i + 1] == x:
-                i += 1
-            dfs(i + 1)
-
-        nums.sort()
-        ans = []
-        t = []
-        dfs(0)
-        return ans
+    def numDecodings(self, s: str) -> int:
+        n = len(s)
+        f = [1] + [0] * n
+        for i, c in enumerate(s, 1):
+            if c != "0":
+                f[i] = f[i - 1]
+            if i > 1 and s[i - 2] != "0" and int(s[i - 2 : i]) <= 26:
+                f[i] += f[i - 2]
+        return f[n]
