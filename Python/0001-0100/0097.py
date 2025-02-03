@@ -10,7 +10,6 @@ class Solution:
             if j < n and s2[j] == s3[k] and dfs(i, j + 1):
                 return True
             return False
-
         m, n = len(s1), len(s2)
         if m + n != len(s3):
             return False
