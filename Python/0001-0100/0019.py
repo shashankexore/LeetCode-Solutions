@@ -8,3 +8,5 @@ class Solution:
             slow, fast = slow.next, fast.next
         slow.next = slow.next.next
         return dummy.next
+
+#https://leetcode.com/problems/remove-nth-node-from-end-of-list/
