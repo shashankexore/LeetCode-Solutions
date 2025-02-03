@@ -11,3 +11,5 @@ class Solution:
                     if f[i][j] and mx < j - i + 1:
                         k, mx = i, j - i + 1
         return s[k : k + mx]
+
+#https://leetcode.com/problems/longest-palindromic-substring/
