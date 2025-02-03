@@ -8,3 +8,5 @@ class Solution:
             elif not stk or stk.pop() + c not in d:
                 return False
         return not stk
+
+#https://leetcode.com/problems/valid-parentheses/
