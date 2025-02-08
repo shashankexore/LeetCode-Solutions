@@ -12,3 +12,5 @@ class Solution:
             return False
 
         return dfs(0, 0, len(s1))
+
+#https://leetcode.com/problems/scramble-string/
