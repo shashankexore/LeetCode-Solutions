@@ -17,3 +17,5 @@ class Solution:
                 window[s[l]] -= 1
                 l += 1
         return "" if k < 0 else s[k : k + mi]
+
+#https://leetcode.com/problems/minimum-window-substring/
