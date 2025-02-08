@@ -11,3 +11,5 @@ class Solution:
             for j in range(n):
                 if row[i] or col[j]:
                     matrix[i][j] = 0
+
+#https://leetcode.com/problems/set-matrix-zeroes/
