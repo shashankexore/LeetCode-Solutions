@@ -6,3 +6,5 @@ class Solution:
             j = next((j for j in range(n - 1, i, -1) if nums[j] > nums[i]))
             nums[i], nums[j] = nums[j], nums[i]
         nums[i + 1 :] = nums[i + 1 :][::-1]
+
+#https://leetcode.com/problems/next-permutation/
