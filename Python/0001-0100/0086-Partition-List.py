@@ -14,3 +14,5 @@ class Solution:
         tr.next = None
         tl.next = r.next
         return l.next
+
+#https://leetcode.com/problems/partition-list/
