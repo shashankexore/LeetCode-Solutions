@@ -10,3 +10,5 @@ class Solution:
             else:
                 stk.append(s)
         return '/' + '/'.join(stk)
+
+#https://leetcode.com/problems/simplify-path/
