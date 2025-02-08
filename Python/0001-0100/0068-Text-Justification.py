@@ -25,3 +25,5 @@ class Solution:
             row.append(t[-1])
             ans.append(''.join(row))
         return ans
+
+#https://leetcode.com/problems/text-justification/
