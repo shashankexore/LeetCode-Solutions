@@ -14,3 +14,5 @@ class Solution:
 
         intervals.append(newInterval)
         return merge(intervals)
+
+#https://leetcode.com/problems/insert-interval/
