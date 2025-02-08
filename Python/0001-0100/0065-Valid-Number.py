@@ -27,3 +27,5 @@ class Solution:
                 return False
             j += 1
         return True
+
+#https://leetcode.com/problems/valid-number/
