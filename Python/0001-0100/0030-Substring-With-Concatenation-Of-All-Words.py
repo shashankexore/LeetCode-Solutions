@@ -22,3 +22,5 @@ class Solution:
                 if r - l == n * k:
                     ans.append(l)
         return ans
+
+#https://leetcode.com/problems/substring-with-concatenation-of-all-words/
