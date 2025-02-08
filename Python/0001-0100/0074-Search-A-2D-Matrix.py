@@ -10,3 +10,5 @@ class Solution:
             else:
                 left = mid + 1
         return matrix[left // n][left % n] == target
+
+#https://leetcode.com/problems/search-a-2d-matrix/
