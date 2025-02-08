@@ -19,3 +19,5 @@ class Solution:
         udg = [0] * (n << 1)
         dfs(0)
         return ans
+
+#https://leetcode.com/problems/n-queens/
