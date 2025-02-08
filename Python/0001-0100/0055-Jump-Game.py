@@ -6,3 +6,5 @@ class Solution:
                 return False
             mx = max(mx, i + x)
         return True
+
+#https://leetcode.com/problems/jump-game/
