@@ -19,3 +19,5 @@ class Solution:
         ans = 0
         dfs(0)
         return ans
+
+#https://leetcode.com/problems/n-queens-ii/
