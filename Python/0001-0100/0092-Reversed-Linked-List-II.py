@@ -18,4 +18,4 @@ class Solution:
         q.next = cur
         return dummy.next
 
-#https://leetcode.com/problems/restore-ip-addresses/
+#https://leetcode.com/problems/reverse-linked-list-ii/
