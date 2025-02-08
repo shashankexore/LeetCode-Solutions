@@ -7,3 +7,5 @@ class Solution:
             else:
                 cur = cur.next
         return head
+
+#https://leetcode.com/problems/remove-duplicates-from-sorted-list/
