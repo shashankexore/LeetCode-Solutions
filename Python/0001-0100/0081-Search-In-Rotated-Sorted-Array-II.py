@@ -17,3 +17,5 @@ class Solution:
             else:
                 r -= 1
         return nums[l] == target
+
+#https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
