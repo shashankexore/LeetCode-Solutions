@@ -19,3 +19,5 @@ class Solution:
         slow.next = None
         fast.next = head
         return ans
+
+#https://leetcode.com/problems/rotate-list/
