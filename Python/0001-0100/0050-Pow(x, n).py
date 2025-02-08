@@ -10,3 +10,5 @@ class Solution:
             return ans
 
         return qpow(x, n) if n >= 0 else 1 / qpow(x, -n)
+
+#https://leetcode.com/problems/powx-n/
