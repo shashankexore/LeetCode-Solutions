@@ -17,3 +17,5 @@ class Solution:
         ans = []
         dfs(0)
         return ans
+
+#https://leetcode.com/problems/permutations/
