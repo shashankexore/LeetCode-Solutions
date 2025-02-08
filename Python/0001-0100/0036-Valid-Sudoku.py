@@ -16,3 +16,5 @@ class Solution:
                 col[j][num] = True
                 sub[k][num] = True
         return True
+
+#https://leetcode.com/problems/valid-sudoku/
