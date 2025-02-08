@@ -24,4 +24,4 @@ class Solution:
                         k -= 1
         return ans
 
-#https://leetcode.com/problems/3sum/description/
+#https://leetcode.com/problems/3sum/
