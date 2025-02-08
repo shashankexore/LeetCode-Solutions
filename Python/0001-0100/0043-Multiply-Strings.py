@@ -14,3 +14,5 @@ class Solution:
             arr[i] %= 10
         i = 0 if arr[0] else 1
         return "".join(str(x) for x in arr[i:])
+
+#https://leetcode.com/problems/multiply-strings/
