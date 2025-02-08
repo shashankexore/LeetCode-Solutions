@@ -12,3 +12,5 @@ class Solution:
                 left[i] = stk[-1]
             stk.append(i)
         return max(h * (right[i] - left[i] - 1) for i, h in enumerate(heights))
+
+#https://leetcode.com/problems/largest-rectangle-in-histogram/
