@@ -7,3 +7,5 @@ class Solution:
             return TreeNode(nums[mid], dfs(l, mid - 1), dfs(mid + 1, r))
 
         return dfs(0, len(nums) - 1)
+
+#https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
