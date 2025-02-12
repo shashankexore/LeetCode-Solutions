@@ -13,3 +13,5 @@ class Solution:
             nums.append(head.val)
             head = head.next
         return buildBST(nums, 0, len(nums) - 1)
+
+#https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
