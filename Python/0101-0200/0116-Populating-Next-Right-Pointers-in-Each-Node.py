@@ -16,3 +16,4 @@ class Solution:
                     q.append(node.right)
         return root
 
+#https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
