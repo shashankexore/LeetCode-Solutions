@@ -16,3 +16,5 @@ class Solution:
         for i, x in enumerate(inOrder):
             d[x].append(i)
         return dfs(0, 0, len(preOrder))
+
+#https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
