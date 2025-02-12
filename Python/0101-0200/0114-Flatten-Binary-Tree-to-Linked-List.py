@@ -12,3 +12,5 @@ class Solution:
                 root.right = root.left
                 root.left = None
             root = root.right
+
+#https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
