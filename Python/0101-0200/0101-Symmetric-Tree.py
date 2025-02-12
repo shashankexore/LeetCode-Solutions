@@ -8,3 +8,5 @@ class Solution:
             return dfs(root1.left, root2.right) and dfs(root1.right, root2.left)
 
         return dfs(root.left, root.right)
+
+#https://leetcode.com/problems/symmetric-tree/description/
