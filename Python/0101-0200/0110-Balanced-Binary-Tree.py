@@ -9,3 +9,5 @@ class Solution:
             return 1 + max(l, r)
 
         return height(root) >= 0
+
+#https://leetcode.com/problems/balanced-binary-tree/
