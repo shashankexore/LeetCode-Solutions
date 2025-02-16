@@ -9,3 +9,5 @@ class Solution:
                 root = root.left
             else:
                 return root
+
+
