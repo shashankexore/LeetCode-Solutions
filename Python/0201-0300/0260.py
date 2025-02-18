@@ -8,3 +8,6 @@ class Solution:
                 a ^= x
         b = xs ^ a
         return [a, b]
+
+
+
