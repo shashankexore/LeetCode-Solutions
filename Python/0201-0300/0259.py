@@ -12,3 +12,6 @@ class Solution:
                 else:
                     k -= 1
         return ans
+
+
+
