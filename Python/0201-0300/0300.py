@@ -7,3 +7,6 @@ class Solution:
                 if nums[j] < nums[i]:
                     f[i] = max(f[i], f[j] + 1)
         return max(f)
+
+
+
