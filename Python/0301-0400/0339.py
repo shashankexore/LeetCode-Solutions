@@ -10,6 +10,3 @@ class Solution:
             return depth_sum
 
         return dfs(nestedList, 1)
-
-
-
