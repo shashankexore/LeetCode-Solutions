@@ -1,14 +1,11 @@
 class Solution:
-    def canCross(self, stones: List[int]) -> bool:
-        @cache
-        def dfs(i, k):
-            if i == n - 1:
-                return True
-            for j in range(k - 1, k + 2):
-                if j > 0 and stones[i] + j in pos and dfs(pos[stones[i] + j], j):
-                    return True
-            return False
-
-        n = len(stones)
-        pos = {s: i for i, s in enumerate(stones)}
-        return dfs(0, 0)
+    def sumOfLeftLeaves(self, root: Optional[TreeNode]) -> int:
+        if root is None:
+            return 0
+        ans = self.sumOfLeftLeaves(root.right)
+        if root.left:
+            if root.left.left == root.left.right:
+                ans += root.left.val
+            else:
+                ans += self.sumOfLeftLeaves(root.left)
+        return ans
