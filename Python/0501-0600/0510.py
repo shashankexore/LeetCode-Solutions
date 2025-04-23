@@ -8,3 +8,5 @@ class Solution:
         while node.parent and node.parent.right is node:
             node = node.parent
         return node.parent
+
+
